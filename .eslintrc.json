@@ -7,10 +7,11 @@
     "mocha": true,
     "node": true
   },
-  "plugins": ["node"],
+  "plugins": ["node", "promise"],
   "extends": [
     "eslint:recommended",
-    "plugin:node/recommended"
+    "plugin:node/recommended",
+    "plugin:promise/recommended"
   ],
   "rules": {
     "node/no-unpublished-require": "off",
